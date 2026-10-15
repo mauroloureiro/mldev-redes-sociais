@@ -12,7 +12,7 @@
 
 ## Regras
 - Não mostrar projetos nem clientes pelo nome. Falar de serviços, processo, perguntas frequentes e números gerais.
-- Não há fotografias nem pessoas: o herói é sempre um objeto ou elemento de interface desenhado em HTML.
+- Não há fotografias nem pessoas: tudo é tipografia, formas e elementos de interface desenhados em HTML.
 - Elementos ilustrativos (nomes de encomendas, datas, horários) são fictícios e genéricos.
 - O testemunho do CAJC já foi publicado. Não repetir.
 
