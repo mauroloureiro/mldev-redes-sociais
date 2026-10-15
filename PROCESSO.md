@@ -22,7 +22,7 @@ Na segunda de manhã a semana anterior já saiu toda, por isso há espaço para 
    - Regras: nunca nomear projetos nem clientes; usar só os factos confirmados em `marca/base.md`; tratar por "tu" (LinkedIn institucional).
 
 3. **Gerar imagens**
-   - Cria `scripts/semanaNN.py` (NN = número da semana). Usa `scripts/kit.py` para fontes, logótipo, texturas e `render()`; `scripts/semana06.py` é só um exemplo técnico do formato F1 — **não copies o layout**, desenha cada publicação de raiz segundo o formato escolhido.
+   - Cria `scripts/semanaNN.py` (NN = número da semana). Usa `scripts/kit.py` para fontes, logótipo, texturas e `render()`; exemplos técnicos: `scripts/semana06.py` (F9 conversa, F2 carrossel, F6 pergunta) e `scripts/exemplo_f1.py` (F1 objeto herói). **Não copies os layouts** — desenha cada publicação de raiz segundo o formato escolhido.
    - Numeração das publicações continua a partir do histórico. Carrosséis: um PNG por slide (`post-XX-tema-1.png`, `-2.png`, …).
    - `python3 scripts/semanaNN.py` → `imagens/semana-NN/`.
    - **Abre cada PNG e verifica**: sem sobreposições nem quebras estranhas, nada cortado, logótipo visível, legível no telemóvel. Verifica também que as 3 publicações parecem claramente diferentes entre si e das últimas 6. Corrige e volta a gerar até estar limpo.
