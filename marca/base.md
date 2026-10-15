@@ -16,13 +16,14 @@
 - Elementos ilustrativos (nomes de encomendas, datas, horários) são fictícios e genéricos.
 - O testemunho do CAJC já foi publicado. Não repetir.
 
-## Estilo visual (v3)
-- Fundos a alternar: preto #0a0a0a com grão, papel claro #ECECE8 amarrotado, azul #103CE7.
+## Estilo visual (v3) — identidade comum, composições sempre diferentes
+- O que se mantém: fontes, paleta, logótipo, textura (grão/papel) e o tom. O layout muda de publicação para publicação — ver `formatos.md`.
+- Fundos a alternar: preto #0a0a0a com grão, papel claro #ECECE8 amarrotado, azul #103CE7, e de vez em quando navy #172041 ou azul-claro #4EC2F9.
 - Azul como única cor de acento. No fundo azul, o acento passa a preto.
-- Título em Montserrat 900, MAIÚSCULAS, entrelinha apertada; as últimas palavras na cor de acento.
-- Logótipo no canto superior esquerdo, tagline (nome do serviço) no canto superior direito em JetBrains Mono.
-- Um objeto/elemento de interface como herói (telemóvel, browser, terminal, notificações, teclas, roadmap, diagrama, conversa, interruptores, lista de tarefas, gráfico, etc.).
-- Rodapé: botão redondo com seta, "Pede a tua proposta gratuita / mldev.pt/contactos" e o telefone à direita.
+- Títulos em Montserrat 900 (MAIÚSCULAS ou não, conforme o formato); destacar palavras-chave na cor de acento.
+- Logótipo sempre presente, mas a posição pode variar (canto superior, inferior ou centrado no fecho de um carrossel).
+- O objeto/elemento de interface como herói é só um dos formatos (F1). Ver `formatos.md`.
+- Rodapé completo com CTA (botão com seta, mldev.pt/contactos, telefone) em no máximo 1 publicação por semana; nas restantes só logótipo/mldev.pt.
 
 ## Factos confirmados (usar só estes)
 - 50+ projetos concluídos · 5+ anos de experiência · 30+ clientes ativos · 98% de satisfação
