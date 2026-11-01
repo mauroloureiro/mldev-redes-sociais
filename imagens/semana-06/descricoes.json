@@ -1,17 +1,29 @@
 {
   "post-13-sem-rede-conversa": {
+    "titulo": "Sem rede? A app continua.",
+    "tema": "Apps com modo offline",
     "formato": "F9 Conversa",
     "date": "2026-11-09T10:00:00+00:00",
-    "images": ["post-13-sem-rede-conversa.png"],
+    "images": [
+      "post-13-sem-rede-conversa.png"
+    ],
     "alt": "Conversa de equipa num telemóvel: o armazém diz que não tem rede, o escritório responde para registar na app na mesma porque sincroniza sozinha, e o armazém confirma 'Já está'. Em baixo: 'Sem rede? A app continua.'",
     "instagram": "Se esta conversa já aconteceu na tua empresa, levanta a mão 🙋\n\nArmazém, cave, estrada, obra… há sempre um sítio onde a rede desaparece. Com modo offline, a equipa continua a registar tudo na app e, quando o sinal volta, os dados sincronizam sozinhos.\n\nFazemos aplicações móveis em Flutter, para iOS e Android, com publicação nas lojas incluída.\n\nQueres uma app que não pare quando a rede para? O link está na bio.\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#AplicaçõesMóveis #ModoOffline #Flutter #AppsÀMedida #PME #MLDEV #Portugal",
     "facebook": "Quem nunca? 😩📶\n\nA rede falha no armazém, mas o trabalho não pode parar. Com modo offline, a app guarda os registos no telemóvel e sincroniza tudo quando o sinal volta.\n\nDesenvolvemos aplicações móveis em Flutter, para iOS e Android.\n\nFala connosco: https://mldev.pt/contactos\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#AplicaçõesMóveis #MLDEV",
     "linkedin": "\"Aqui não há rede.\" Uma frase que, em muitas empresas, significa trabalho parado ou registado em papel para passar mais tarde.\n\nArmazéns, viaturas e obras são precisamente os locais onde as equipas mais precisam de registar informação e onde a ligação mais falha.\n\nAs aplicações móveis desenvolvidas pela MLDEV podem funcionar em modo offline: os registos ficam guardados no dispositivo e são sincronizados automaticamente quando a ligação regressa. Sem duplicação de trabalho e sem perda de dados.\n\nDesenvolvemos em Flutter, com uma base de código para iOS e Android, backend e painel de gestão incluídos.\n\nSaiba mais: https://mldev.pt/contactos\n+351 231 109 068 (chamada para a rede fixa nacional)\n\n#AplicaçõesMóveis #Flutter #TransformaçãoDigital #PME #Logística"
   },
   "post-14-cms-carrossel": {
+    "titulo": "5 coisas que podes mudar no teu site sem ligar a um programador",
+    "tema": "Websites com CMS",
     "formato": "F2 Carrossel (5 slides)",
     "date": "2026-11-11T10:00:00+00:00",
-    "images": ["post-14-cms-carrossel-1.png", "post-14-cms-carrossel-2.png", "post-14-cms-carrossel-3.png", "post-14-cms-carrossel-4.png", "post-14-cms-carrossel-5.png"],
+    "images": [
+      "post-14-cms-carrossel-1.png",
+      "post-14-cms-carrossel-2.png",
+      "post-14-cms-carrossel-3.png",
+      "post-14-cms-carrossel-4.png",
+      "post-14-cms-carrossel-5.png"
+    ],
     "alts": [
       "Capa do carrossel: um 5 azul gigante e o texto 'coisas que podes mudar no teu site sem ligar a um programador'.",
       "Slide 1: ícone de relógio, 'O horário.' Exemplo: Seg–Sex 9h–18h passa a 9h–17h.",
@@ -24,9 +36,13 @@
     "linkedin": "Quanto tempo demora a atualizar o horário no website da sua empresa?\n\nSe a resposta envolve um e-mail a um fornecedor e alguns dias de espera, o site está a perder atualidade e a equipa está a perder tempo.\n\nNos websites desenvolvidos pela MLDEV, o CMS integrado permite à própria empresa atualizar, de forma autónoma:\n→ horários\n→ notícias e novidades\n→ fotografias\n→ serviços\n→ contactos\n\nTudo com design personalizado, SEO e uma abordagem mobile-first.\n\nProposta gratuita: https://mldev.pt/contactos\n+351 231 109 068 (chamada para a rede fixa nacional)\n\n#Websites #CMS #MarketingDigital #PME #TransformaçãoDigital"
   },
   "post-15-backups-pergunta": {
+    "titulo": "Quando foi feita a última cópia de segurança?",
+    "tema": "Cópias de segurança diárias",
     "formato": "F6 Pergunta",
     "date": "2026-11-13T10:00:00+00:00",
-    "images": ["post-15-backups-pergunta.png"],
+    "images": [
+      "post-15-backups-pergunta.png"
+    ],
     "alt": "Pergunta da semana: 'Quando foi feita a última cópia de segurança dos dados da tua empresa?' Opções: A) Ontem à noite, B) Não faço ideia, C) Cópia de quê?",
     "instagram": "A, B ou C? Sê honesto 😅👇\n\nSe respondeste B ou C, não estás sozinho. E é exatamente por isso que, nos clientes de suporte e manutenção da MLDEV, a resposta é sempre A: as cópias de segurança são automáticas e diárias.\n\nJunta-se monitorização 24/7 com alertas, atualizações de segurança e um relatório mensal.\n\nQueres passar para a resposta A? Link na bio.\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#Backups #SuporteIT #Manutenção #Cibersegurança #PME #MLDEV #Portugal",
     "facebook": "Pergunta da semana 👇 Responde A, B ou C nos comentários.\n\nCom o nosso serviço de suporte e manutenção, a resposta é sempre A: cópias de segurança automáticas, todos os dias, com monitorização 24/7.\n\nhttps://mldev.pt/contactos\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#SuporteIT #MLDEV",

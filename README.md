@@ -1,3 +1,3 @@
 # MLDEV — Redes sociais
 
-Imagens das publicações da MLDEV, servidas publicamente para agendamento no Buffer.
+Imagens e descrições das publicações da MLDEV. O ERP da MLDEV (página Marketing) lê `erp/fila.json` e agenda as publicações a partir daqui.

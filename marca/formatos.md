@@ -32,7 +32,7 @@ O Mauro não quer publicações monótonas. O modelo "título grande + objeto he
 | F13 | Comparação / tabela | "À medida vs pronto-a-usar", "App nativa vs Flutter" — tabela de 2 colunas. |
 | F14 | Notificação / meme de escritório | Situação reconhecível do dia a dia de uma PME, com humor leve (sem imagens de terceiros). |
 
-## Carrosséis no Buffer (testado a 15/10/2026, funciona)
+## Carrosséis (histórico: no Buffer, testado a 15/10/2026; desde 01/11/2026 o ERP publica o carrossel a partir da lista `images`)
 - Gerar cada slide como PNG 1080×1080 (`post-XX-tema-1.png`, `-2.png`, …) e passar todos em `assets` pela ordem.
 - Instagram: `metadata.instagram.type = "post"` (não existe "carousel") com várias imagens em `assets` → o Buffer publica como carrossel.
 - Facebook (`type: "post"`) e LinkedIn: a mesma lista de imagens, pela mesma ordem.

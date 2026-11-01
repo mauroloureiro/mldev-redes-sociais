@@ -1,18 +1,18 @@
 # Processo semanal automático — publicações MLDEV
 
 Corre todas as segundas-feiras às 07:45 (Lisboa) como tarefa agendada do Claude.
-Gera as 3 publicações **dessa semana** (seg, qua e sex às 10:00, hora de Lisboa) e agenda-as no Buffer.
+Gera as 3 publicações **dessa semana** (seg, qua e sex às 10:00, hora de Lisboa) e entrega-as ao **ERP da MLDEV** (página Marketing).
 
-Porquê na própria semana: o plano gratuito do Buffer só aceita 10 publicações em fila.
-Na segunda de manhã a semana anterior já saiu toda, por isso há espaço para as 9 novas.
+Desde 01/11/2026 já não se usa o Buffer. O ERP lê `erp/fila.json` deste repositório de hora a hora, descarrega as imagens e agenda
+as publicações no calendário: publica sozinho no Facebook e no Instagram e envia à equipa o texto do LinkedIn à hora marcada.
+Cada publicação só é importada uma vez (chave `semana-NN/post-XX-…`), por isso nunca se reescreve uma semana já entregue.
 
 ## Passos
 
 1. **Verificações iniciais**
    - Se a data de hoje for anterior a 2026-11-16, termina sem fazer nada (as semanas até 13/11 já estão tratadas).
-   - Buffer `list_posts` (org `6ace4d5f973519dbf3844c5c`, status scheduled, dueAt entre hoje 00:00 e domingo 23:59).
-     Se já existirem publicações agendadas para esta semana, termina e avisa (não duplicar).
-   - Conta todas as publicações em fila. Se 9 novas ultrapassarem o limite de 10, avisa o Mauro e termina.
+   - Lê `erp/fila.json`. Se a semana desta segunda já lá estiver (ou já existir `imagens/semana-NN/descricoes.json` com datas desta semana), termina e avisa (não duplicar).
+   - Não uses o Buffer (nem para consultar nem para agendar).
 
 2. **Escolher 3 temas e 3 formatos**
    - Lê `marca/base.md` (identidade, factos, regras), `marca/formatos.md` (catálogo e **regras de variedade — obrigatórias**) e `historico.md` (temas e formatos já usados).
@@ -27,7 +27,8 @@ Na segunda de manhã a semana anterior já saiu toda, por isso há espaço para 
    - `python3 scripts/semanaNN.py` → `imagens/semana-NN/`.
    - **Abre cada PNG e verifica**: sem sobreposições nem quebras estranhas, nada cortado, logótipo visível, legível no telemóvel. Verifica também que as 3 publicações parecem claramente diferentes entre si e das últimas 6. Corrige e volta a gerar até estar limpo.
 
-4. **Descrições** em `imagens/semana-NN/descricoes.json` (mesma estrutura JSON da semana 6, mas texto variado — ver regra 9 de `marca/formatos.md`):
+4. **Descrições** em `imagens/semana-NN/descricoes.json` (mesma estrutura JSON da semana 6, mas texto variado — ver regra 9 de `marca/formatos.md`).
+   O ERP lê este ficheiro tal como está, por isso cada publicação tem de ter: `titulo`, `tema`, `formato`, `date` (ISO com o offset de Lisboa: +00:00 no inverno, +01:00 no verão, sempre às 10:00 de Lisboa), `images` (nomes dos PNG da pasta, pela ordem do carrossel), `alt`/`alts`, `instagram`, `facebook`, `linkedin`.
    - Instagram: CTA com "link na bio" (redação variável) + telefone + ~7 hashtags.
    - Facebook: link direto https://mldev.pt/contactos + telefone + 2 hashtags.
    - LinkedIn: tom institucional, contexto para empresas, link + telefone, exatamente 5 hashtags.
@@ -35,14 +36,12 @@ Na segunda de manhã a semana anterior já saiu toda, por isso há espaço para 
    - altText descritivo em cada imagem.
 
 5. **GitHub**: `git add -A && git commit && git push` para `main`. Confirma que
-   `https://raw.githubusercontent.com/mauroloureiro/mldev-redes-sociais/main/imagens/semana-NN/<ficheiro>.png` devolve 200.
+   `https://raw.githubusercontent.com/mauroloureiro/mldev-redes-sociais/main/imagens/semana-NN/<ficheiro>.png` e `…/semana-NN/descricoes.json` devolvem 200.
 
-6. **Buffer** (`create_post`, `mode: customScheduled`, `schedulingType: automatic`, `dueAt` com o offset de Lisboa na data: +00:00 no inverno, +01:00 no verão):
-   - Instagram `6ace4da0778b240e2ff8b77a` — metadata `{"instagram": {"type": "post", "shouldShareToFeed": true}}` (carrossel: ver `marca/formatos.md`)
-   - Facebook `6ace4dca778b240e2ff8b943` — metadata `{"facebook": {"type": "post"}}`
-   - LinkedIn `6ace4def778b240e2ff8ba85` — sem metadata
-   - Confirma com `list_posts` que ficaram 9 agendadas.
+6. **Entregar ao ERP** (só depois do passo 5 estar confirmado): acrescenta `"semana-NN"` ao fim da lista `semanas` em `erp/fila.json`, faz commit e push.
+   Confirma que `https://raw.githubusercontent.com/mauroloureiro/mldev-redes-sociais/main/erp/fila.json` já mostra a semana nova.
+   O ERP importa dentro de 1 hora; as publicações aparecem no calendário da página Marketing como "Agendado".
 
-7. **Fecho**: acrescenta a semana a `historico.md` com o tema **e o formato** (código F) de cada publicação, faz commit e push, e envia ao Mauro um resumo curto com os 3 títulos, datas e as imagens.
+7. **Fecho**: acrescenta a semana a `historico.md` com o tema **e o formato** (código F) de cada publicação, faz commit e push, e envia ao Mauro um resumo curto com os 3 títulos, datas e as imagens, com a nota de que pode alterar ou apagar as publicações no ERP (Marketing) até à hora de saída.
 
-Se algum passo falhar (sem acesso ao GitHub ou ao Buffer, limite atingido), não publiques nada a meio: avisa o Mauro com o motivo.
+Se algum passo falhar (sem acesso ao GitHub, imagens com erro), não acrescentes a semana a `erp/fila.json`: avisa o Mauro com o motivo.
