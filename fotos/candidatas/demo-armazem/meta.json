@@ -1,0 +1,59 @@
+{
+  "query": "warehouse shelves boxes",
+  "candidatas": [
+    {
+      "fonte": "pixabay",
+      "autor": "AJS1",
+      "link": "https://pixabay.com/photos/hangar-stock-suite-building-5183399/",
+      "licenca": "Pixabay Content License",
+      "desc": "hangar, stock, suite, building, clothes",
+      "ficheiro": "01.jpg",
+      "url_original": "https://pixabay.com/get/ge2c76c84aeb8ff4db8fe3e4a6bba24abce83df1538bd40bf32ce14754cdbe5e32b944eee144e08417d76e14948acf4763dee6cf40cf2afdc3c31232aa94cf564_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "RobbieWi",
+      "link": "https://pixabay.com/photos/warehouse-hall-parcel-center-5770315/",
+      "licenca": "Pixabay Content License",
+      "desc": "warehouse, hall, parcel center, shipping center, industry, building, factory, production, shipment, packages, shipping service, mail order business, pavement, floor, shelves, warehouse, warehouse, warehouse, warehouse, warehouse, shipment, shelves",
+      "ficheiro": "02.jpg",
+      "url_original": "https://pixabay.com/get/gebedd4c4d4cfda96661e4d05cf8d1295da9fa98c838fc79af9665cc8e1aeae2a4082f24c075b06538c564bd2b68cd40c4e03a6ba570d9f08d25bf5ad83d18f96_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "FIONASUN",
+      "link": "https://pixabay.com/photos/factory-storehouse-box-700591/",
+      "licenca": "Pixabay Content License",
+      "desc": "factory, storehouse, box, storehouse, storehouse, storehouse, storehouse, storehouse",
+      "ficheiro": "03.jpg",
+      "url_original": "https://pixabay.com/get/ga624d8579cfdf0a51e2f0c44f406c0d19c0972c2f6b784f28db2e097320d03324963b2069389f15a31e5e55b611bc466ea75541e2a2a3ec0d02983dcb844e41b_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Pexels",
+      "link": "https://pixabay.com/photos/archive-boxes-shelf-folders-1850170/",
+      "licenca": "Pixabay Content License",
+      "desc": "archive, boxes, shelf, folders, documents, data, storage, rack, row, stock, business, warehouse, depth of field, archive, data, storage, warehouse, warehouse, warehouse, warehouse, warehouse",
+      "ficheiro": "04.jpg",
+      "url_original": "https://pixabay.com/get/ga0d844d5781e2eaa824bc03edcdcec9d4d1f4fb569f4ebbd61312406578d1a8c9565bc4e5247a8cd81f21d492cb50ef597bd8eda15188899297e89032a424560_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "tianya1223",
+      "link": "https://pixabay.com/photos/store-stacks-shelves-stock-5619201/",
+      "licenca": "Pixabay Content License",
+      "desc": "store, stacks, shelves, stock, warehouse, supermarket, retail, shopping, shop, purchase, warehouse, warehouse, warehouse, warehouse, warehouse",
+      "ficheiro": "05.jpg",
+      "url_original": "https://pixabay.com/get/g1671e0aa0352be9da7769cee771a63ef7f922eee9dde80deaddd9d345a4757ae50fdfd4190184191e3a3af4cce0e8542dc425a5142496c9a349a85e2a2933f1e_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "2857440",
+      "link": "https://pixabay.com/photos/hamburg-speicherstadt-channel-4570577/",
+      "licenca": "Pixabay Content License",
+      "desc": "hamburg, speicherstadt, channel, architecture, building, landmark, warehouse, river, germany, hamburg, hamburg, hamburg, hamburg, hamburg, germany, germany, germany, germany",
+      "ficheiro": "06.jpg",
+      "url_original": "https://pixabay.com/get/g151a442ce88e1ff13724dfdf47f849ba9ff70e6d06bc35916ea17661989823b2efc55a1f8899a20668ae6cc2efb183066f78e29c163938fcf3bbaa0d5f44627f_1280.jpg"
+    }
+  ]
+}

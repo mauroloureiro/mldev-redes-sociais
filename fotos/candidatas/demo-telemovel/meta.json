@@ -1,0 +1,59 @@
+{
+  "query": "smartphone hands coffee",
+  "candidatas": [
+    {
+      "fonte": "pixabay",
+      "autor": "kaboompics",
+      "link": "https://pixabay.com/photos/woman-write-notepad-girl-female-792162/",
+      "licenca": "Pixabay Content License",
+      "desc": "woman, write, notepad, girl, female, hand, note, business, notebook, desk, work, working, table, pen, student, young, write, note, business, business, business, business, work, work, work, working, pen, pen, student, student, student, student, student",
+      "ficheiro": "01.jpg",
+      "url_original": "https://pixabay.com/get/g909ec6d97e6cb612fe14d4981b782df60d33e7dd22c4377f7a504cda1059aff6ec048e5897cc6e353f494f1f78d5edf0031cd25efe9e6d9b058429c4834a01e6_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Pexels",
+      "link": "https://pixabay.com/photos/hands-holding-smartphone-chatting-1853302/",
+      "licenca": "Pixabay Content License",
+      "desc": "hands, holding, smartphone, chatting, cellphone, close up, girl, mobile phone, nail polish, nails, woman, communication, technology, smartphone, smartphone, smartphone, smartphone, smartphone, chatting, cellphone, cellphone, cellphone, mobile phone, mobile phone, mobile phone, mobile phone, nails",
+      "ficheiro": "02.jpg",
+      "url_original": "https://pixabay.com/get/g0cb1a9cd9e2cd7fed02b3751438cc5c916f762a4cd4a955aaae1c6688d4305b6381f2d44ebe0b8a3f8d9d77f953546b90be14f6eb5e88d4adfd244d08a681bc6_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "minhthai0105",
+      "link": "https://pixabay.com/photos/coffee-cafe-to-drink-brown-hot-5082544/",
+      "licenca": "Pixabay Content License",
+      "desc": "coffee, coffee cup, cafe, to drink, brown, hot, aroma, caffeine, cup, table, mocha, roasted, dark",
+      "ficheiro": "03.jpg",
+      "url_original": "https://pixabay.com/get/g3e31fa878608382d0129e517ac4fcb9acf141df29f279d8a8e2bb5aeb25ede996891b5290cae2c38f037ef8e9c64942a9d936f08dae624211e6890e67e299298_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Ylanite",
+      "link": "https://pixabay.com/photos/christmas-cozy-christmas-wallpaper-3876026/",
+      "licenca": "Pixabay Content License",
+      "desc": "christmas, cozy, christmas wallpaper, flat lay, smartphone, christmas background, christmas card, christmas postcard, christmas, christmas, cozy, cozy, cozy, cozy, christmas background, christmas background, christmas background, christmas background, christmas background",
+      "ficheiro": "04.jpg",
+      "url_original": "https://pixabay.com/get/gf842cdf06a0073261dd87ed2e34c8132235d31faf3352a29b6d2a6aeb28deb0c2165c5a4713bc94175ba5f8c37fbec41bbed07b44d0d8d60e2faa95e1c67411e_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "StartupStockPhotos",
+      "link": "https://pixabay.com/photos/student-typing-keyboard-text-849826/",
+      "licenca": "Pixabay Content License",
+      "desc": "student, typing, keyboard, text, startup, business, people, students, office, strategy, work, technology, company, corporate, communication, young, plan, marketing, computer, design, professional, planning, internet, project, laptop, presentation, web, display, monitor, screen, digital, electronic, pc, modern, student, student, student, typing, business, business, business, students, students, office, office, marketing, marketing, marketing, marketing, computer, computer, computer, computer, computer, professional, internet, laptop, laptop, laptop, presentation, web",
+      "ficheiro": "05.jpg",
+      "url_original": "https://pixabay.com/get/ga619ca97e5478c13dab3aa233c1e4b990dac290ea026c296cfa9daee9df0201145f4545c61cfe8f484aa936f11e7b7e06a3757ffd0b7c9828e5dd44084686bfe_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Firmbee",
+      "link": "https://pixabay.com/photos/laptop-iphone-workspace-hands-614213/",
+      "licenca": "Pixabay Content License",
+      "desc": "laptop, iphone, workspace, hands, coffee, binders, facebook, social media, social networking, working, notebook, desk, work, office, business, macbook, connection, networking, technology, wireless, facebook, facebook, social media, social media, social media, social media, social media",
+      "ficheiro": "06.jpg",
+      "url_original": "https://pixabay.com/get/g57f256b6097a218fc0528a7df3b94d150ac649fdd2d7e9157d7f9ae9523388dd669537eaef4fdb9ad26654c36eb56de27729dc86490e66647796de1b524ae67f_1280.jpg"
+    }
+  ]
+}
