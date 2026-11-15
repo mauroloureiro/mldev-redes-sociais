@@ -104,10 +104,10 @@ OVERLAYS = {
                "linear-gradient(180deg,rgba(10,10,10,.55) 0%,rgba(10,10,10,.35) 40%,rgba(10,10,10,.85) 100%)"),
     "navy":   ("grayscale(1) brightness(.6) contrast(1.1)",
                "linear-gradient(160deg,rgba(23,32,65,.80) 0%,rgba(23,32,65,.62) 55%,rgba(23,32,65,.92) 100%)"),
-    "azul":   ("grayscale(1) brightness(.75) contrast(1.15)",
-               "linear-gradient(200deg,rgba(16,60,231,.78) 0%,rgba(16,60,231,.70) 60%,rgba(10,20,90,.90) 100%)"),
-    "lateral": ("grayscale(.4) brightness(.6)",  # texto à esquerda, foto visível à direita
-               "linear-gradient(90deg,rgba(10,10,10,.95) 0%,rgba(10,10,10,.85) 45%,rgba(10,10,10,.25) 100%)"),
+    "azul":   ("grayscale(1) brightness(.85) contrast(1.2)",
+               "linear-gradient(200deg,rgba(16,60,231,.62) 0%,rgba(16,60,231,.66) 55%,rgba(10,20,90,.90) 100%)"),
+    "lateral": ("grayscale(.3) brightness(.85) contrast(1.05)",  # texto à esquerda, foto visível à direita
+               "linear-gradient(90deg,rgba(10,10,10,.94) 0%,rgba(10,10,10,.82) 42%,rgba(10,10,10,.30) 75%,rgba(10,10,10,.10) 100%)"),
     "base":   ("grayscale(.3) brightness(.65)",  # texto em baixo
                "linear-gradient(180deg,rgba(10,10,10,.15) 0%,rgba(10,10,10,.55) 45%,rgba(10,10,10,.97) 100%)"),
 }
