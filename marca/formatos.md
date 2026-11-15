@@ -1,5 +1,21 @@
 # Catálogo de formatos — variar sempre
 
+## Foco no cliente e fotografias (pedido do Mauro, 15/11/2026 — obrigatório)
+**A mensagem.** Cada publicação parte de uma situação/dor que o cliente reconhece no seu dia a dia e mostra que o serviço da MLDEV resolve isso. O objetivo é o leitor pensar "isto acontece-me, preciso disto".
+- Começa pelo problema, não pelo serviço: "Ainda a fechar o mês no Excel?", "O cliente ligou e ninguém sabia em que ponto estava a encomenda.", "O site está bonito, mas o telefone não toca."
+- Depois a consequência (tempo, dinheiro, clientes perdidos, stress) e por fim a solução MLDEV numa frase. O título fala da dor; a solução vai no subtítulo, no último slide ou na descrição.
+- Nada de números inventados: só factos de `base.md`. Para quantificar a dor, usa perguntas ("Quantas horas por semana…?") em vez de estatísticas.
+- Público: donos e gestores de PME (comércio, indústria, serviços, armazém, escritório).
+
+**As imagens.** Pelo menos **2 das 3 publicações por semana** têm fotografia de fundo (num carrossel basta a capa e o último slide; os do meio podem ser lisos).
+- A foto tem de ter a ver com o contexto da publicação (ex.: papéis e Excel → secretária cheia de papéis; armazém/stock → prateleiras e caixas; site que não vende → pessoa a ver o telemóvel; suporte → servidor/portátil à noite; consultoria → reunião). Sem fotos genéricas "bonitas" sem relação com o tema.
+- **O texto manda, a foto é contexto**: usar sempre `foto_bg()` de `scripts/kit.py` (foto escurecida/dessaturada + camada da marca). Estilos: `escuro`, `navy`, `azul`, `lateral` (texto à esquerda), `base` (texto em baixo). Variar o estilo entre publicações.
+- Títulos grandes (≥ 72 px), brancos ou azul-claro #4EC2F9 / caixa branca com texto preto; nunca texto fino sobre zonas claras da foto. Se ao verificar o PNG alguma palavra se confundir com a foto, escurece mais (outro estilo ou blur) ou troca de foto.
+- Evitar fotos com texto, logótipos ou marcas visíveis, ecrãs com software de terceiros reconhecível, e caras em grande plano a olhar para a câmara (parece banco de imagens). Mãos, costas, secretárias, ambientes de trabalho funcionam melhor.
+- Fonte: `scripts/fotos.py` → `foto("pesquisa em inglês", slug="post-NN")` (API Pexels; licença livre para uso comercial, sem atribuição obrigatória). Não repete fotos (`fotos_usadas.json`). Abre a foto escolhida e confirma que encaixa no tema; se não, usa `escolha=1, 2…` ou outra pesquisa.
+- Sem acesso ao Pexels: usa `marca/fotos/` (se tiver fotos) e, em último caso, faz a semana sem fotos no estilo v3 e avisa o Mauro de que o Pexels falhou.
+- Os formatos abaixo continuam válidos — a fotografia é o fundo, o formato é a composição (ex.: F6 Pergunta com foto, F4 Mito vs Realidade com foto em metade do ecrã, F2 Carrossel com foto na capa).
+
 O Mauro não quer publicações monótonas. O modelo "título grande + objeto herói + rodapé" (usado nas semanas 1 a 6) é **só um** dos formatos, não o padrão.
 
 ## Regras de variedade (obrigatórias)
@@ -12,7 +28,8 @@ O Mauro não quer publicações monótonas. O modelo "título grande + objeto he
 7. **Cores**: além do preto, papel claro e azul #103CE7, usar também navy #172041 e azul-claro #4EC2F9 como fundo de vez em quando. Nunca o mesmo fundo em duas publicações seguidas.
 8. **Rodapé com CTA completo** (botão + mldev.pt/contactos + telefone) em **no máximo 1 publicação por semana**. Nas outras: só o logótipo e, quando muito, "mldev.pt" discreto. O CTA vai na descrição.
 9. **Descrições também variam**: abrir de formas diferentes (pergunta, número, frase curta, história de um dia de trabalho, afirmação polémica); não começar sempre por repetir o título; variar o CTA final ("Fala connosco", "Pede proposta", "Envia-nos mensagem", "Comenta X") e a quantidade de emojis.
-10. Antes de gerar, compara os 3 rascunhos com as últimas 6 publicações do histórico. Se parecerem da mesma família, muda.
+10. O fundo com fotografia conta como fundo: não usar o mesmo estilo de `foto_bg()` em duas publicações seguidas.
+11. Antes de gerar, compara os 3 rascunhos com as últimas 6 publicações do histórico. Se parecerem da mesma família, muda.
 
 ## Formatos
 | Código | Formato | Ideia |

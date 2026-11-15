@@ -12,11 +12,12 @@
 
 ## Regras
 - Não mostrar projetos nem clientes pelo nome. Falar de serviços, processo, perguntas frequentes e números gerais.
-- Não há fotografias nem pessoas: tudo é tipografia, formas e elementos de interface desenhados em HTML.
+- **Desde 16/11/2026 usam-se fotografias de fundo** (ver `formatos.md` → "Foco no cliente e fotografias"). Fotos de banco de imagens (Pexels), sempre ligadas ao contexto da publicação e escurecidas para o texto mandar. Nunca fotos de projetos/clientes reais, nem logótipos ou marcas de terceiros visíveis.
 - Elementos ilustrativos (nomes de encomendas, datas, horários) são fictícios e genéricos.
 - O testemunho do CAJC já foi publicado. Não repetir.
 
-## Estilo visual (v3) — identidade comum, composições sempre diferentes
+## Estilo visual (v4) — identidade comum, composições sempre diferentes
+- v4 (16/11/2026): fotografia contextual em fundo + texto em destaque; ver `formatos.md`.
 - O que se mantém: fontes, paleta, logótipo, textura (grão/papel) e o tom. O layout muda de publicação para publicação — ver `formatos.md`.
 - Fundos a alternar: preto #0a0a0a com grão, papel claro #ECECE8 amarrotado, azul #103CE7, e de vez em quando navy #172041 ou azul-claro #4EC2F9.
 - Azul como única cor de acento. No fundo azul, o acento passa a preto.

@@ -1,5 +1,6 @@
 """Kit visual MLDEV (estilo v3) para gerar publicações 1080x1080.
-Uso: from kit import *  -> GRAIN, GRAIN_DARK, CRUMPLE, logo_html(cor), footer(fg, btn_bg, btn_fg), render(dict, pasta_saida)
+Uso: from kit import *  -> GRAIN, GRAIN_DARK, CRUMPLE, logo_html(cor), footer(fg, btn_bg, btn_fg), foto_bg(path, estilo), render(dict, pasta_saida)
+Fotografias: scripts/fotos.py -> foto(query, slug) (Pexels, com fallback para marca/fotos/).
 Fontes: descarregadas automaticamente via `npm pack` para ~/.cache/mldev-fonts na primeira execução.
 """
 import base64, pathlib, subprocess, tarfile
@@ -93,3 +94,38 @@ def render(posts, out_dir):
             pg.screenshot(path=str(out / f"{name}.png"), clip={"x": 0, "y": 0, "width": 1080, "height": 1080})
             print("ok", name)
         b.close()
+
+
+# ---------- Fotografia de fundo (desde 16/11/2026) ----------
+# O texto tem de mandar: a foto fica escurecida/dessaturada e serve só de contexto.
+OVERLAYS = {
+    # nome: (filtro CSS da foto, camada por cima)
+    "escuro": ("grayscale(.35) brightness(.55) contrast(1.05)",
+               "linear-gradient(180deg,rgba(10,10,10,.55) 0%,rgba(10,10,10,.35) 40%,rgba(10,10,10,.85) 100%)"),
+    "navy":   ("grayscale(1) brightness(.6) contrast(1.1)",
+               "linear-gradient(160deg,rgba(23,32,65,.80) 0%,rgba(23,32,65,.62) 55%,rgba(23,32,65,.92) 100%)"),
+    "azul":   ("grayscale(1) brightness(.75) contrast(1.15)",
+               "linear-gradient(200deg,rgba(16,60,231,.78) 0%,rgba(16,60,231,.70) 60%,rgba(10,20,90,.90) 100%)"),
+    "lateral": ("grayscale(.4) brightness(.6)",  # texto à esquerda, foto visível à direita
+               "linear-gradient(90deg,rgba(10,10,10,.95) 0%,rgba(10,10,10,.85) 45%,rgba(10,10,10,.25) 100%)"),
+    "base":   ("grayscale(.3) brightness(.65)",  # texto em baixo
+               "linear-gradient(180deg,rgba(10,10,10,.15) 0%,rgba(10,10,10,.55) 45%,rgba(10,10,10,.97) 100%)"),
+}
+
+def foto_uri(path, size=1080, quality=82):
+    """Redimensiona/corta a fotografia a quadrado e devolve data URI JPEG."""
+    import io
+    from PIL import Image, ImageOps
+    im = ImageOps.exif_transpose(Image.open(path)).convert("RGB")
+    im = ImageOps.fit(im, (size, size), Image.LANCZOS)
+    buf = io.BytesIO(); im.save(buf, "JPEG", quality=quality)
+    return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+
+def foto_bg(path, estilo="escuro", pos="center", blur=0):
+    """HTML das camadas de fundo (pôr logo a seguir a <div class='post'>). Conteúdo por cima precisa de z-index:3."""
+    filtro, camada = OVERLAYS[estilo]
+    if blur:
+        filtro += f" blur({blur}px)"
+    return (f'<div style="position:absolute;inset:-{blur*2}px;z-index:0;background:url({foto_uri(path)}) {pos}/cover;filter:{filtro}"></div>'
+            f'<div style="position:absolute;inset:0;z-index:1;background:{camada}"></div>'
+            f'<div class="grain" style="background-image:url(&quot;{GRAIN}&quot;);opacity:.5;z-index:2"></div>')
