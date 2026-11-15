@@ -12,8 +12,8 @@
 - **O texto manda, a foto é contexto**: usar sempre `foto_bg()` de `scripts/kit.py` (foto escurecida/dessaturada + camada da marca). Estilos: `escuro`, `navy`, `azul`, `lateral` (texto à esquerda), `base` (texto em baixo). Variar o estilo entre publicações.
 - Títulos grandes (≥ 72 px), brancos ou azul-claro #4EC2F9 / caixa branca com texto preto; nunca texto fino sobre zonas claras da foto. Se ao verificar o PNG alguma palavra se confundir com a foto, escurece mais (outro estilo ou blur) ou troca de foto.
 - Evitar fotos com texto, logótipos ou marcas visíveis, ecrãs com software de terceiros reconhecível, e caras em grande plano a olhar para a câmara (parece banco de imagens). Mãos, costas, secretárias, ambientes de trabalho funcionam melhor.
-- Fonte: `scripts/fotos.py` → `foto("pesquisa em inglês", slug="post-NN")` (API Pixabay e, se houver chave, Pexels; licenças livres para uso comercial, sem atribuição obrigatória). Não repete fotos (`fotos_usadas.json`). Abre a foto escolhida e confirma que encaixa no tema; se não, usa `escolha=1, 2…` ou outra pesquisa.
-- Sem acesso ao Pixabay/Pexels: usa `marca/fotos/` (se tiver fotos) e, em último caso, faz a semana sem fotos no estilo v3 e avisa o Mauro de que a pesquisa de fotos falhou.
+- Fonte: pedidos em `fotos/pedidos.json` → GitHub Actions procura no Pixabay e grava candidatas em `fotos/candidatas/` (ver `PROCESSO.md`). Licenças livres para uso comercial. Não repetir fotos (`fotos_usadas.json`).
+- Sem fotos aproveitáveis: `marca/fotos/` (se tiver) e, em último caso, fundo da marca sem foto — e avisar o Mauro.
 - Os formatos abaixo continuam válidos — a fotografia é o fundo, o formato é a composição (ex.: F6 Pergunta com foto, F4 Mito vs Realidade com foto em metade do ecrã, F2 Carrossel com foto na capa).
 
 O Mauro não quer publicações monótonas. O modelo "título grande + objeto herói + rodapé" (usado nas semanas 1 a 6) é **só um** dos formatos, não o padrão.

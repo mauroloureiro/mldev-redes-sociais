@@ -1,6 +1,6 @@
 """Kit visual MLDEV (estilo v3) para gerar publicações 1080x1080.
 Uso: from kit import *  -> GRAIN, GRAIN_DARK, CRUMPLE, logo_html(cor), footer(fg, btn_bg, btn_fg), foto_bg(path, estilo), render(dict, pasta_saida)
-Fotografias: scripts/fotos.py -> foto(query, slug) (Pexels, com fallback para marca/fotos/).
+Fotografias: vêm de fotos/candidatas/ (GitHub Actions, ver PROCESSO.md); foto_bg(path, estilo) escurece-as.
 Fontes: descarregadas automaticamente via `npm pack` para ~/.cache/mldev-fonts na primeira execução.
 """
 import base64, pathlib, subprocess, tarfile
