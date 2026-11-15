@@ -1,0 +1,41 @@
+{
+  "query": "office paperwork",
+  "candidatas": [
+    {
+      "fonte": "openverse/flickr",
+      "autor": "david_shankbone",
+      "link": "https://www.flickr.com/photos/27865228@N06/4734053363",
+      "licenca": "PDM",
+      "desc": "Floyd Abrams by David Shankbone",
+      "ficheiro": "01.jpg",
+      "url_original": "https://live.staticflickr.com/1070/4734053363_658c97221c_b.jpg"
+    },
+    {
+      "fonte": "openverse/flickr",
+      "autor": "cogdogblog",
+      "link": "https://www.flickr.com/photos/37996646802@N01/3321043159",
+      "licenca": "CC0",
+      "desc": "2009/365/60: Downed by Paperwork",
+      "ficheiro": "02.jpg",
+      "url_original": "https://live.staticflickr.com/3591/3321043159_a829670d33_b.jpg"
+    },
+    {
+      "fonte": "openverse/stocksnap",
+      "autor": "Michal Kulesza",
+      "link": "https://stocksnap.io/photo/filefolders-business-6RHKEELJ8F",
+      "licenca": "CC0",
+      "desc": "Filefolders Business",
+      "ficheiro": "03.jpg",
+      "url_original": "https://cdn.stocksnap.io/img-thumbs/960w/6RHKEELJ8F.jpg"
+    },
+    {
+      "fonte": "openverse/flickr",
+      "autor": "US Coast Guard Academy",
+      "link": "https://www.flickr.com/photos/43228104@N07/6141357314",
+      "licenca": "PDM",
+      "desc": "110912-G-MF861-002 Flu Kick-Off",
+      "ficheiro": "04.jpg",
+      "url_original": "https://live.staticflickr.com/6163/6141357314_ae3716c2de_b.jpg"
+    }
+  ]
+}
