@@ -12,7 +12,7 @@
 
 ## Regras
 - Não mostrar projetos nem clientes pelo nome. Falar de serviços, processo, perguntas frequentes e números gerais.
-- **Desde 16/11/2026 usam-se fotografias de fundo** (ver `formatos.md` → "Foco no cliente e fotografias"). Fotos de banco de imagens (Pexels), sempre ligadas ao contexto da publicação e escurecidas para o texto mandar. Nunca fotos de projetos/clientes reais, nem logótipos ou marcas de terceiros visíveis.
+- **Desde 16/11/2026 usam-se fotografias de fundo** (ver `formatos.md` → "Foco no cliente e fotografias"). Fotos de banco de imagens (Pixabay; Pexels como alternativa), sempre ligadas ao contexto da publicação e escurecidas para o texto mandar. Nunca fotos de projetos/clientes reais, nem logótipos ou marcas de terceiros visíveis.
 - Elementos ilustrativos (nomes de encomendas, datas, horários) são fictícios e genéricos.
 - O testemunho do CAJC já foi publicado. Não repetir.
 

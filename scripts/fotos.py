@@ -1,8 +1,10 @@
 """Fotografias de fundo para as publicações MLDEV.
 
-Fonte principal: API do Pexels (licença Pexels: uso comercial grátis, sem atribuição obrigatória).
-A chave NUNCA vai para o repositório (é público): lê-se da variável de ambiente PEXELS_API_KEY
-ou do ficheiro ~/.config/mldev/pexels.key.
+Fontes (por esta ordem):
+  1. API do Pixabay — chave em PIXABAY_API_KEY (licença Pixabay: uso comercial grátis, sem atribuição obrigatória).
+  2. API do Pexels  — chave em PEXELS_API_KEY (pedidos de chave estavam em pausa em 11/2026).
+As chaves NUNCA vão para o repositório (é público): vêm de variáveis de ambiente
+ou de ~/.config/mldev/pixabay.key / pexels.key.
 
 Fallback: fotografias guardadas em marca/fotos/<pasta>/*.jpg (quando a API não estiver disponível).
 Se não houver nenhuma fotografia, foto() devolve None e a publicação usa um fundo da marca (sem foto).
@@ -10,7 +12,7 @@ Se não houver nenhuma fotografia, foto() devolve None e a publicação usa um f
 Uso:
     from fotos import foto
     f = foto("tired office worker paperwork stack", slug="post-16")
-    # f = {"path": Path, "id": ..., "fotografo": ..., "url": ..., "fonte": "pexels"|"biblioteca"} ou None
+    # f = {"path": Path, "id": ..., "fotografo": ..., "url": ..., "fonte": "pixabay"|"pexels"|"biblioteca"} ou None
 
 As fotos usadas ficam em fotos_usadas.json (raiz do repo) para não se repetirem.
 """
@@ -22,13 +24,31 @@ BIBLIOTECA = REPO / "marca" / "fotos"
 CACHE = pathlib.Path.home() / ".cache" / "mldev-fotos"
 
 
-def _key():
-    k = os.environ.get("PEXELS_API_KEY", "").strip()
+def _key(nome="pexels"):
+    k = os.environ.get(f"{nome.upper()}_API_KEY", "").strip()
     if not k:
-        f = pathlib.Path.home() / ".config" / "mldev" / "pexels.key"
+        f = pathlib.Path.home() / ".config" / "mldev" / f"{nome}.key"
         if f.exists():
             k = f.read_text().strip()
     return k or None
+
+
+def _pixabay(query, n=20):
+    """Resultados do Pixabay normalizados para o formato usado aqui."""
+    key = _key("pixabay")
+    if not key:
+        return []
+    q = urllib.parse.urlencode({"key": key, "q": query, "image_type": "photo", "per_page": n,
+                                "safesearch": "true", "min_width": 1080, "min_height": 1080, "order": "popular"})
+    try:
+        req = urllib.request.Request(f"https://pixabay.com/api/?{q}", headers={"User-Agent": "mldev-redes-sociais"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            hits = json.load(r).get("hits", [])
+    except Exception as e:
+        print("Pixabay indisponível:", e)
+        return []
+    return [{"id": f"pixabay-{h['id']}", "fonte": "pixabay", "download": h.get("largeImageURL"),
+             "photographer": h.get("user"), "url": h.get("pageURL"), "alt": h.get("tags")} for h in hits]
 
 
 def _usadas():
@@ -42,8 +62,11 @@ def _marcar(entry):
 
 
 def pesquisar(query, n=15, orientation="square"):
-    """Devolve a lista de fotos do Pexels (dicts da API) ou [] se não houver acesso."""
-    key = _key()
+    """Devolve fotos (Pixabay primeiro, depois Pexels) ou [] se não houver acesso."""
+    r = _pixabay(query)
+    if r:
+        return r
+    key = _key("pexels")
     if not key:
         return []
     q = urllib.parse.urlencode({"query": query, "per_page": n, "orientation": orientation})
@@ -51,18 +74,20 @@ def pesquisar(query, n=15, orientation="square"):
                                  headers={"Authorization": key, "User-Agent": "mldev-redes-sociais"})
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
-            return json.load(r).get("photos", [])
+            fotos = json.load(r).get("photos", [])
     except Exception as e:
         print("Pexels indisponível:", e)
         return []
+    return [{"id": str(p["id"]), "fonte": "pexels", "photographer": p.get("photographer"), "url": p.get("url"),
+             "alt": p.get("alt"), "download": p["src"]["original"] + "?auto=compress&cs=tinysrgb&fit=crop&w=1600&h=1600"}
+            for p in fotos]
 
 
 def _descarregar(p, slug):
     CACHE.mkdir(parents=True, exist_ok=True)
-    dest = CACHE / f"{slug}-pexels-{p['id']}.jpg"
+    dest = CACHE / f"{slug}-{p['fonte']}-{p['id']}.jpg"
     if not dest.exists():
-        url = p["src"]["original"] + "?auto=compress&cs=tinysrgb&fit=crop&w=1600&h=1600"
-        req = urllib.request.Request(url, headers={"User-Agent": "mldev-redes-sociais"})
+        req = urllib.request.Request(p["download"], headers={"User-Agent": "mldev-redes-sociais"})
         with urllib.request.urlopen(req, timeout=60) as r:
             dest.write_bytes(r.read())
     return dest
@@ -73,11 +98,11 @@ def foto(query, slug, pasta=None, escolha=0, orientation="square"):
     escolha: índice entre os resultados ainda não usados (para experimentar alternativas).
     pasta: subpasta de marca/fotos/ a usar no fallback (ex.: "erp", "websites")."""
     usadas = {str(u.get("id")) for u in _usadas()}
-    livres = [p for p in pesquisar(query, orientation=orientation) if str(p["id"]) not in usadas]
+    livres = [p for p in pesquisar(query, orientation=orientation) if str(p["id"]) not in usadas and p.get("download")]
     if livres:
         p = livres[min(escolha, len(livres) - 1)]
         path = _descarregar(p, slug)
-        entry = {"id": str(p["id"]), "fonte": "pexels", "query": query, "post": slug,
+        entry = {"id": str(p["id"]), "fonte": p["fonte"], "query": query, "post": slug,
                  "fotografo": p.get("photographer"), "url": p.get("url"), "alt": p.get("alt")}
         _marcar(entry)
         return {**entry, "path": path}
