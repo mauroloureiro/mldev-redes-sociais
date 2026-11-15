@@ -1,0 +1,25 @@
+name: Procurar fotos
+on:
+  push:
+    paths: ["fotos/pedidos.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: fotos
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pillow
+      - run: python scripts/fotos_action.py
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      - run: |
+          git config user.name "mldev-fotos-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fotos/candidatas
+          git diff --cached --quiet || (git commit -m "Fotos candidatas" && git pull --rebase && git push)
