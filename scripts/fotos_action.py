@@ -35,9 +35,11 @@ def pexels(q, n):
 def openverse(q, n):
     d = get_json("https://api.openverse.org/v1/images/?" + urllib.parse.urlencode({"q": q, "license": "cc0,pdm",
         "page_size": max(n * 3, 20), "mature": "false"}))
+    res = d.get("results", [])
+    print("openverse:", q, "->", len(res), "resultados")
     out = []
-    for r in d.get("results", []):
-        if (r.get("width") or 0) >= 1000 and (r.get("height") or 0) >= 800:
+    for r in res:
+        if (r.get("width") or 1200) >= 900 and (r.get("height") or 1000) >= 700:
             out.append({"dl": r["url"], "fonte": "openverse/" + (r.get("source") or ""), "autor": r.get("creator"),
                         "link": r.get("foreign_landing_url"), "licenca": (r.get("license") or "").upper(), "desc": r.get("title")})
     return out
@@ -70,6 +72,9 @@ def main():
                 meta.append({**{k: v for k, v in c.items() if k != "dl"}, "ficheiro": name, "url_original": c["dl"]})
             except Exception as e:
                 print("download falhou:", c.get("dl"), e)
+        if not meta:
+            print(slug, "sem fotos — não grava, para se poder repetir")
+            continue
         (d / "meta.json").write_text(json.dumps({"query": q, "candidatas": meta}, ensure_ascii=False, indent=2) + "\n")
         print(slug, q, "->", len(meta), "fotos")
 
