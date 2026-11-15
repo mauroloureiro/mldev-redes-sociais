@@ -7,7 +7,7 @@
 - Nada de números inventados: só factos de `base.md`. Para quantificar a dor, usa perguntas ("Quantas horas por semana…?") em vez de estatísticas.
 - Público: donos e gestores de PME (comércio, indústria, serviços, armazém, escritório).
 
-**As imagens.** Pelo menos **2 das 3 publicações por semana** têm fotografia de fundo (num carrossel basta a capa e o último slide; os do meio podem ser lisos).
+**As imagens.** Estilo aprovado pelo Mauro a 15/11/2026 (exemplos: foto escurecida em baixo com título grande; texto à esquerda e foto à direita; foto em tom azul com frase em caixa branca). Pelo menos **2 das 3 publicações por semana** têm fotografia de fundo (num carrossel basta a capa e o último slide; os do meio podem ser lisos).
 - A foto tem de ter a ver com o contexto da publicação (ex.: papéis e Excel → secretária cheia de papéis; armazém/stock → prateleiras e caixas; site que não vende → pessoa a ver o telemóvel; suporte → servidor/portátil à noite; consultoria → reunião). Sem fotos genéricas "bonitas" sem relação com o tema.
 - **O texto manda, a foto é contexto**: usar sempre `foto_bg()` de `scripts/kit.py` (foto escurecida/dessaturada + camada da marca). Estilos: `escuro`, `navy`, `azul`, `lateral` (texto à esquerda), `base` (texto em baixo). Variar o estilo entre publicações.
 - Títulos grandes (≥ 72 px), brancos ou azul-claro #4EC2F9 / caixa branca com texto preto; nunca texto fino sobre zonas claras da foto. Se ao verificar o PNG alguma palavra se confundir com a foto, escurece mais (outro estilo ou blur) ou troca de foto.
