@@ -1,0 +1,59 @@
+{
+  "query": "office desk paperwork calendar",
+  "candidatas": [
+    {
+      "fonte": "pixabay",
+      "autor": "ds_30",
+      "link": "https://pixabay.com/photos/cup-notebook-work-coffee-business-5508208/",
+      "licenca": "Pixabay Content License",
+      "desc": "cup, beautiful wallpaper, laptop wallpaper, notebook, work, coffee, business, background, office, coffee cup, free wallpaper, desk, document, paper, beverage, mac wallpaper, windows wallpaper, desktop backgrounds, workplace, plan, 4k wallpaper, hd wallpaper, finance, wallpaper 4k, free background, schedule, organize, cool backgrounds, strategy, information, wallpaper hd, marketing, 4k wallpaper 1920x1080, forecasting, note, memory, full hd wallpaper, memo",
+      "ficheiro": "01.jpg",
+      "url_original": "https://pixabay.com/get/g33005dd23382dc20bde309c71f95649fca59432092b5073a3c16cf067cb5883a00cf231dbb515f9a60ade33df13f34f0706ce89807d4c593a42567558957c58e_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "marhiiaf13",
+      "link": "https://pixabay.com/photos/businessman-laptop-stocks-5647719/",
+      "licenca": "Pixabay Content License",
+      "desc": "businessman, laptop, stocks, stock exchange, broker, chart, reports, accounting records, calculations, notebook, flat lay, broker, broker, broker, broker, broker",
+      "ficheiro": "02.jpg",
+      "url_original": "https://pixabay.com/get/g623be89091efc3f83baf8aa4ef031bfa4a0c5d68349eafb4f334d80d311c9c796075a35c14da952f39f3a2dc7322ec5d275ed4031df4eac6960dba37c46c8d09_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "AymaneJed",
+      "link": "https://pixabay.com/photos/laptop-office-hand-writing-3196481/",
+      "licenca": "Pixabay Content License",
+      "desc": "laptop, office, hand, writing, business, document, contract, paper, education, work, notebook, data, pen, meeting, recruitment, agreement, paperwork, office, business, business, business, business, business, contract, contract, education, work, meeting, meeting",
+      "ficheiro": "03.jpg",
+      "url_original": "https://pixabay.com/get/gf155a7a7159f2b8ed2c51f8983a1409fd77e891dddfcbf0e5fb54ba0427f5f1a0e81f5ea0967c23cf30b037805b33ba97a3c87411dd8b1f0008712f85dd7f133_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "StockSnap",
+      "link": "https://pixabay.com/photos/apple-computer-browser-business-2568755/",
+      "licenca": "Pixabay Content License",
+      "desc": "apple, computer, browser, business, office, work, desk, table, chairs, interior, display, green, business, office, office, office, office, office, work, desk, desk, desk, desk, table, table, table, table",
+      "ficheiro": "04.jpg",
+      "url_original": "https://pixabay.com/get/g0ca96fd567cc2e947d35188f0b70e4c60b380d69b21ace541ed733856b0e91f1d9a63a6755a570d5e31b5598e114e2954b8d86a7eea02ea0054956d389ab3b41_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Pexels",
+      "link": "https://pixabay.com/photos/desk-laptop-office-notebook-mac-1284085/",
+      "licenca": "Pixabay Content License",
+      "desc": "desk, laptop, office, notebook, mac, macbook, table, technology, computer, mockup, design, screen, notepad, home office, freelance, work from home, desk, office, office, office, office, office, computer, computer, home office, home office",
+      "ficheiro": "05.jpg",
+      "url_original": "https://pixabay.com/get/gdeb3713f3c07f181726b624ee1eac3ab4d76ccf6fc974daf2059122121edf04f976a79efa26abfa2c807cb0052fc795f4978c0996e1aadaa227869ea0afa4174_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Firmbee",
+      "link": "https://pixabay.com/photos/apple-imac-ipad-workplace-606761/",
+      "licenca": "Pixabay Content License",
+      "desc": "apple, imac, ipad, workplace, freelancer, computer, business, technology, workspace, apple products, desk, desktop, computer, computer, computer, computer, computer",
+      "ficheiro": "06.jpg",
+      "url_original": "https://pixabay.com/get/ge16f4bc52f84183055bac1fec3d24afa267650b07b34001b529bd05c0fb42686f18b26409fcd167052b8709ae9645b4dd3b6e306451ab05857231c0662251a9e_1280.jpg"
+    }
+  ]
+}
