@@ -27,7 +27,7 @@ O Mauro não quer publicações monótonas. O modelo "título grande + objeto he
 6. **Variar a composição**: posição do título (topo, centro, fundo, vertical), tamanho, alinhamento, uso de cor. Não usar a mesma grelha duas vezes seguidas.
 7. **Cores**: além do preto, papel claro e azul #103CE7, usar também navy #172041 e azul-claro #4EC2F9 como fundo de vez em quando. Nunca o mesmo fundo em duas publicações seguidas.
 8. **Rodapé com CTA completo** (botão + mldev.pt/contactos + telefone) em **no máximo 1 publicação por semana**. Nas outras: só o logótipo e, quando muito, "mldev.pt" discreto. O CTA vai na descrição.
-9. **Descrições também variam**: abrir de formas diferentes (pergunta, número, frase curta, história de um dia de trabalho, afirmação polémica); não começar sempre por repetir o título; variar o CTA final ("Fala connosco", "Pede proposta", "Envia-nos mensagem", "Comenta X") e a quantidade de emojis.
+9. **Descrições também variam**: abrir de formas diferentes (pergunta, número, frase curta, história de um dia de trabalho, afirmação polémica); não começar sempre por repetir o título; variar o CTA final ("Fala connosco", "Pede proposta", "Envia-nos mensagem", "Comenta X") e a quantidade de emojis. Sem travessões (`—`/`–`), nem nas imagens nem nas descrições.
 10. O fundo com fotografia conta como fundo: não usar o mesmo estilo de `foto_bg()` em duas publicações seguidas.
 11. Antes de gerar, compara os 3 rascunhos com as últimas 6 publicações do histórico. Se parecerem da mesma família, muda.
 

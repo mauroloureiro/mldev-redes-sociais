@@ -11,6 +11,7 @@
 - Público: PME em Portugal.
 
 ## Regras
+- **Sem travessões** (pedido do Mauro, 16/11/2026): nunca usar `—` nem `–` em imagens, títulos, descrições ou alt text. Usar ponto, vírgula, dois pontos ou parênteses; falas/diálogos entre aspas “…”; intervalos com “a” ou “ou” (ex.: “1 ou 2”, “16 a 20/11”). Antes do push, procurar `—` e `–` em `descricoes.json` e no script da semana e corrigir.
 - Não mostrar projetos nem clientes pelo nome. Falar de serviços, processo, perguntas frequentes e números gerais.
 - **Desde 16/11/2026 usam-se fotografias de fundo** (ver `formatos.md` → "Foco no cliente e fotografias"). Fotos de banco de imagens (Pixabay; Pexels como alternativa), sempre ligadas ao contexto da publicação e escurecidas para o texto mandar. Nunca fotos de projetos/clientes reais, nem logótipos ou marcas de terceiros visíveis.
 - Elementos ilustrativos (nomes de encomendas, datas, horários) são fictícios e genéricos.

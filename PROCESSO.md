@@ -41,6 +41,7 @@ Cada publicação só é importada uma vez (chave `semana-NN/post-XX-…`), por 
    - LinkedIn: tom institucional, contexto para empresas, link + telefone, exatamente 5 hashtags.
    - Telefone sempre: "+351 231 109 068 (chamada para a rede fixa nacional)".
    - altText descritivo em cada imagem (inclui o que a foto mostra).
+   - **Sem travessões** (`—` ou `–`) em nenhum texto, nem nas imagens nem nas descrições (pedido do Mauro, 16/11/2026). Ver `marca/base.md`. Confirma com `python3 -c "import re,sys;t=open(sys.argv[1]).read();print(re.findall('[—–]',t))" imagens/semana-NN/descricoes.json` (tem de dar `[]`) e o mesmo para `scripts/semanaNN.py`.
    - Abre as descrições pela dor do cliente (pergunta ou situação do dia a dia), depois a solução — sem repetir o título palavra por palavra.
 
 5. **GitHub**: `git add -A && git commit && git push` para `main`. Confirma que

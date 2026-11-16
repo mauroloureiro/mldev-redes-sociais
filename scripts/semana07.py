@@ -1,4 +1,4 @@
-"""Semana 07 (16–20/11/2026): F5 Antes/Depois (stocks) · F7 Checklist + interação (RH) · F14 Notificação (web e mobile).
+"""Semana 07 (16 a 20/11/2026): F5 Antes/Depois (stocks) · F7 Checklist + interação (RH) · F14 Notificação (web e mobile).
 Uso: python3 scripts/semana07.py
 """
 import sys, pathlib
@@ -7,7 +7,8 @@ from kit import *
 
 REPO = pathlib.Path(__file__).resolve().parent.parent
 OUT = REPO / "imagens" / "semana-07"
-F = REPO / "fotos" / "candidatas"
+import os
+F = pathlib.Path(os.environ.get("MLDEV_FOTOS", REPO / "fotos" / "candidatas"))  # fotos apagadas do repo: ver commit 7164767
 SKY, BLUE, NAVY, PAPER = "#4EC2F9", "#103CE7", "#172041", "#ECECE8"
 
 CSS = """
@@ -30,8 +31,8 @@ p16 = f"""{CSS}<div class="post" style="padding:0;color:#fff">
  {foto_bg(F/'post-16'/'05.jpg', 'escuro', pos='center 40%')}
  <div style="position:absolute;z-index:3;left:72px;top:64px"><span class="lbl" style="background:#fff;color:#0a0a0a">Antes</span></div>
  <div style="position:absolute;z-index:3;left:72px;right:72px;bottom:56px">
-  <div style="font-size:34px;font-weight:600;color:#d9deea;margin-bottom:14px">— Ainda temos daquela referência?</div>
-  <h1 style="font-size:86px;text-transform:none;letter-spacing:-3px;line-height:.98">— Tenho de ir<br>ao armazém ver.</h1>
+  <div style="font-size:34px;font-weight:600;color:#d9deea;margin-bottom:14px">“Ainda temos daquela referência?”</div>
+  <h1 style="font-size:86px;text-transform:none;letter-spacing:-3px;line-height:.98">“Tenho de ir<br>ao armazém ver.”</h1>
  </div>
 </div>
 <div style="position:absolute;left:0;top:560px;width:1080px;height:520px;background:{PAPER};color:#0a0a0a">
@@ -57,7 +58,7 @@ items = [
     "Pedidos de férias perdidos no meio dos e-mails",
     "Faltas apontadas num caderno",
     "Horários num Excel que só uma pessoa percebe",
-    "“Quantos dias de férias me faltam?” — e ninguém sabe ao certo",
+    "“Quantos dias de férias me faltam?” E ninguém sabe ao certo",
 ]
 rows = "".join(f'<div class="row"><div class="box"></div><p>{t}</p></div>' for t in items)
 p17 = f"""{CSS}<div class="post" style="color:#fff">
