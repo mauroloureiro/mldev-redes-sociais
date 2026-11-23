@@ -1,0 +1,51 @@
+{
+ "post-19-producao-carrossel": {
+  "titulo": "Onde está a encomenda? Algures na fábrica.",
+  "tema": "Módulo de produção",
+  "formato": "F2 Carrossel 5 slides (guardar para depois)",
+  "date": "2026-11-23T10:00:00+00:00",
+  "images": [
+   "post-19-producao-carrossel-1.png",
+   "post-19-producao-carrossel-2.png",
+   "post-19-producao-carrossel-3.png",
+   "post-19-producao-carrossel-4.png",
+   "post-19-producao-carrossel-5.png"
+  ],
+  "alts": [
+   "Fotografia escurecida de uma linha de produção numa fábrica, com máquinas e tubagens verdes. Por cima: \"Onde está a encomenda?\" e a resposta, em azul-claro, \"Algures na fábrica.\" Em baixo: 3 sinais de que a tua produção precisa de um sistema, desliza.",
+   "Fundo azul-escuro com o número 01 em contorno. Sinal 1 de 3: As ordens de fabrico andam em papel. Passam de mão em mão, ganham rasuras e ninguém tem a certeza de qual é a versão certa.",
+   "Fundo azul-escuro com o número 02 em contorno. Sinal 2 de 3: Para saber em que fase está uma encomenda, alguém tem de ir lá ver. O cliente fica à espera ao telefone enquanto se percorre a fábrica à procura de uma resposta.",
+   "Fundo azul-escuro com o número 03 em contorno. Sinal 3 de 3: A matéria-prima acaba sem ninguém avisar. Só se descobre quando a máquina para e o prazo prometido ao cliente já está em risco.",
+   "Fotografia escurecida de mãos com luvas a trabalhar metal com uma rebarbadora, a soltar faíscas. Por cima: A solução. Um módulo de produção põe a fábrica no ecrã. Etiquetas: Ordens de fabrico, Fase de cada encomenda, Ligado aos stocks. Em tempo real, no computador ou no telemóvel. Rodapé: Pede a tua proposta gratuita, mldev.pt/contactos, +351 231 109 068."
+  ],
+  "instagram": "O cliente liga a perguntar pela encomenda. Alguém pousa o telefone, atravessa a fábrica, pergunta a dois colegas e volta sem certezas. 🏭\n\nSe isto te soa familiar, desliza e vê os 3 sinais de que a tua produção já pede um sistema.\n\nUm módulo de produção junta ordens de fabrico, fases de cada encomenda e stocks num só ecrã, em tempo real.\n\nGuarda este post para mostrares à equipa 📌 e, quando quiseres, pede proposta através do link na bio.\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#Produção #Indústria #SoftwareDeGestão #ERP #PME #MLDEV #Portugal",
+  "facebook": "Ordens de fabrico em papel, encomendas que só se localizam indo lá ver, matéria-prima que acaba sem aviso. Reconheces algum?\n\nUm módulo de produção no teu software de gestão mostra em que fase está cada encomenda e o que falta em stock, sem sair do escritório.\n\nPede uma proposta gratuita: https://mldev.pt/contactos\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#Produção #MLDEV",
+  "linkedin": "Em muitas PME industriais, saber o estado de uma encomenda ainda implica ir fisicamente ao chão de fábrica.\n\nOrdens de fabrico em papel, fases de produção sem registo centralizado e falta de matéria-prima detetada apenas quando a máquina para são sinais claros de que a informação não acompanha o ritmo da produção.\n\nOs sistemas de gestão desenvolvidos pela MLDEV podem incluir um módulo de produção integrado com stocks e área comercial, com dashboard em tempo real, acessível via web e mobile. As entregas são faseadas, para que a equipa comece a usar o sistema antes de estar concluído.\n\nPeça uma proposta gratuita: https://mldev.pt/contactos\n+351 231 109 068 (chamada para a rede fixa nacional)\n\n#Produção #Indústria #ERP #TransformaçãoDigital #PME"
+ },
+ "post-20-medida-vs-pronto-comparacao": {
+  "titulo": "Pagas um programa que a equipa contorna com Excel?",
+  "tema": "Software à medida vs pronto-a-usar",
+  "formato": "F13 Comparação / tabela",
+  "date": "2026-11-25T10:00:00+00:00",
+  "images": [
+   "post-20-medida-vs-pronto-comparacao.png"
+  ],
+  "alt": "Fundo de papel claro. Título: Pagas um programa que a equipa contorna com Excel? Tabela de duas colunas, Pronto-a-usar contra À medida: A empresa adapta-se ao programa contra O programa adapta-se à empresa; Menus cheios de coisas que ninguém usa contra Só os módulos de que precisas; Um Excel ao lado para o que falta contra Liga-se ao que já usas; Esperas que o fornecedor mude contra Cresce quando a empresa cresce. Em baixo: Nem sempre a resposta é à medida. Mas, se o Excel ao lado já é permanente, vale a pena falarmos.",
+  "instagram": "Há uma folha de Excel na tua empresa que existe só porque o programa \"não faz aquilo\"? 🤔\n\nOs programas pronto-a-usar resolvem muita coisa. O problema começa quando é a empresa que se tem de dobrar ao programa, e o Excel ao lado passa de remendo a ferramenta principal.\n\nUm software à medida tem só os módulos de que precisas e liga-se ao que já usas. Não é sempre a resposta certa, mas vale a pena fazer as contas.\n\nQueres uma opinião sincera sobre o teu caso? Escreve-nos (link na bio).\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#SoftwareÀMedida #SoftwareDeGestão #Excel #ERP #PME #MLDEV #Portugal",
+  "facebook": "Licença paga todos os meses e, mesmo assim, um Excel aberto ao lado. Acontece mais vezes do que se pensa.\n\nComparámos pronto-a-usar e à medida, sem rodeios. Se te revês na coluna da esquerda, falamos? A proposta é gratuita.\n\nhttps://mldev.pt/contactos\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#SoftwareÀMedida #MLDEV",
+  "linkedin": "Quando um software de gestão não cobre os processos reais da empresa, as equipas encontram alternativas: folhas de cálculo paralelas, registos manuais e tarefas duplicadas.\n\nAs soluções pronto-a-usar são adequadas em muitos casos. Mas quando a empresa tem de adaptar a forma como trabalha ao programa, e não o contrário, os custos escondidos acumulam-se.\n\nA MLDEV desenvolve software de gestão à medida (ERP/CRM), com os módulos necessários, integração com contabilidade e outras ferramentas e entregas faseadas. A primeira conversa serve para perceber se faz sentido para o seu caso.\n\nProposta gratuita: https://mldev.pt/contactos\n+351 231 109 068 (chamada para a rede fixa nacional)\n\n#SoftwareÀMedida #ERP #GestãoEmpresarial #TransformaçãoDigital #PME"
+ },
+ "post-21-pagamentos-sondagem": {
+  "titulo": "Como sabes se o cliente já pagou?",
+  "tema": "Integração com pagamentos",
+  "formato": "F6 Sondagem (interação)",
+  "date": "2026-11-27T10:00:00+00:00",
+  "images": [
+   "post-21-pagamentos-sondagem.png"
+  ],
+  "alt": "Fotografia em tons de azul-escuro de mãos a escrever num portátil, ao lado de um caderno. Texto: A fatura foi enviada há uma semana. Como sabes se o cliente já pagou? Três opções em cartões brancos: A, Vou ver ao homebanking, linha a linha; B, Peço o comprovativo por e-mail; C, O sistema mostra-me logo. Em baixo: Responde com A, B ou C nos comentários.",
+  "instagram": "Sexta-feira, fim do mês a chegar e a pergunta do costume: \"Este cliente já pagou?\" 💸\n\nA, B ou C? Conta-nos nos comentários, sem julgamentos 😄\n\nSe a tua resposta não foi C, sabe que o software de gestão pode ligar-se aos pagamentos, para veres o estado de cada fatura sem andares a cruzar extratos.\n\nQueres saber como ficaria na tua empresa? Link na bio.\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#Faturação #Pagamentos #SoftwareDeGestão #ERP #PME #MLDEV #Portugal",
+  "facebook": "Sondagem de sexta: como confirmas que um cliente já pagou? A) homebanking linha a linha, B) comprovativo por e-mail, C) o sistema mostra logo. 👇\n\nSe quiseres passar para o C, fala connosco: https://mldev.pt/contactos\n📞 +351 231 109 068 (chamada para a rede fixa nacional)\n\n#Pagamentos #MLDEV",
+  "linkedin": "Confirmar pagamentos de clientes continua a ser, em muitas PME, um trabalho manual: consultar o homebanking, cruzar valores com faturas, pedir comprovativos por e-mail.\n\nÉ tempo administrativo que se repete todas as semanas e que atrasa decisões simples, como libertar uma encomenda ou contactar um cliente em atraso.\n\nOs sistemas desenvolvidos pela MLDEV integram com pagamentos, contabilidade e outras ferramentas, para que o estado de cada fatura esteja visível num só lugar, com relatórios em PDF/Excel.\n\nComo é feito hoje na sua empresa? A, B ou C? Partilhe nos comentários.\n\nhttps://mldev.pt/contactos\n+351 231 109 068 (chamada para a rede fixa nacional)\n\n#Pagamentos #Faturação #ERP #TransformaçãoDigital #PME"
+ }
+}
