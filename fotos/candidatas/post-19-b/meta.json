@@ -1,0 +1,59 @@
+{
+  "query": "metal workshop machine",
+  "candidatas": [
+    {
+      "fonte": "pixabay",
+      "autor": "Ralphs_Fotos",
+      "link": "https://pixabay.com/photos/milling-cutters-metal-shavings-tool-3738903/",
+      "licenca": "Pixabay Content License",
+      "desc": "milling cutters, metal shavings, tool, milling, industry, cutting tool, cnc, machining, milling machine, machine, metal, metal construction, cnc machine, manufacturing, mold making, cutter head, steel, mechanical engineering, metalworking, workshop, closeup, milling, milling, cnc, cnc, machining, milling machine, machine, cnc machine, manufacturing, manufacturing, manufacturing, manufacturing, manufacturing, mechanical engineering",
+      "ficheiro": "01.jpg",
+      "url_original": "https://pixabay.com/get/g02178bf80e953344f97a69cb27e34292a278833d96d086d9aab8c1a5c84acd3464271959f557fa417a90a2cf055c53424c186b9b4b0be1f28257becc3c7271c3_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "avantrend",
+      "link": "https://pixabay.com/photos/gear-mechanics-bikes-transmission-408364/",
+      "licenca": "Pixabay Content License",
+      "desc": "gear, mechanics, bikes, transmission, gears, technology, drive, gear, gear, gear, gear, gears, gears, gears, gears, gears, technology",
+      "ficheiro": "02.jpg",
+      "url_original": "https://pixabay.com/get/g9cba6b1f4feb9445cf98b0563f670fda9c2d64fe60effcd7aced666c64def711ad00c4f37beaa0b88be4a00433d929c127a28d4abc006a43827d3f4e7d9fdc3a_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "jannonivergall",
+      "link": "https://pixabay.com/photos/worker-grinder-factory-workplace-5736096/",
+      "licenca": "Pixabay Content License",
+      "desc": "worker, grinder, factory, workplace, workshop, production, manufacturing, industry, metal work, work, steel, metal, profession, worker, worker, factory, factory, factory, production, manufacturing, manufacturing, manufacturing, manufacturing, manufacturing, industry, industry, work, work, steel, steel, metal",
+      "ficheiro": "03.jpg",
+      "url_original": "https://pixabay.com/get/g6cccb46f1725b4028dc59c17cd0c57ea30ccae02e61c98350afd48467371758077c68f0377f9e810ae94c958ddc42e5198c369f97512bf39641bf2b7ab7ec6e2_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "blickpixel",
+      "link": "https://pixabay.com/photos/milling-drill-cutting-tools-444493/",
+      "licenca": "Pixabay Content License",
+      "desc": "milling, drill, cutting tools, cnc machine, drilling head, drilling, tool, steel, metal, cnc, machine, milling machine, metalwork, industry, manufacturing, lathe, metal construction, industrial steel drills, machining, mechanics, engineering, technology, closeup, cnc, machine, machine, industry, industry, industry, industry, manufacturing, manufacturing, manufacturing, manufacturing, manufacturing, machining, engineering, engineering, engineering",
+      "ficheiro": "04.jpg",
+      "url_original": "https://pixabay.com/get/g511977925c3e215746c74c2114cc16aa735faa6ec503254070a1089cd87811987f44195f8bb9fe4a90d2336559641fcfc9a5eea2533f535a209af06c04966e50_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Ralphs_Fotos",
+      "link": "https://pixabay.com/photos/milling-cutter-machine-6085290/",
+      "licenca": "Pixabay Content License",
+      "desc": "milling cutter, machine, metal shavings, tool, machining, milling, cnc, milling machine, cnc machine, cutting machine, cutter, metal, steel, metalworking, technology, manufacturing, industry, workshop, closeup, cnc, cnc, cnc, cnc machine, manufacturing, manufacturing, manufacturing, manufacturing, manufacturing",
+      "ficheiro": "05.jpg",
+      "url_original": "https://pixabay.com/get/g6c7698dac7bac5faacf3aa043b90d71efa3ec942c39c5948b5c7f61236131347fc6760b88a489d40d376a6b3ef1eaad65726d1b526383df8519b8535e06c131c_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Ralphs_Fotos",
+      "link": "https://pixabay.com/photos/lathe-metal-processing-machine-4021097/",
+      "licenca": "Pixabay Content License",
+      "desc": "lathe, metal processing, machine, metal construction, mechanical engineering, tooling, lathe chisel, rotate, production, machining, workshop, industry, technology, lathe, lathe, lathe, lathe, lathe, mechanical engineering, machining",
+      "ficheiro": "06.jpg",
+      "url_original": "https://pixabay.com/get/g5241c5609a382da918c50102d36a47a9391d79cf786569766ef59ea42134751549276f79f2022646edbfea8d2a54215769e24316e3cefcebdc52d2be280da7f6_1280.jpg"
+    }
+  ]
+}

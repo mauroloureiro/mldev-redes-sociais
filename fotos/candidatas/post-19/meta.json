@@ -1,0 +1,59 @@
+{
+  "query": "factory production line",
+  "candidatas": [
+    {
+      "fonte": "pixabay",
+      "autor": "Quanlecntt2004",
+      "link": "https://pixabay.com/photos/worker-woman-mask-face-mask-6322085/",
+      "licenca": "Pixabay Content License",
+      "desc": "worker, woman, mask, face mask, medical mask, portrait, factory, factory worker, occupation, asian, asian woman, worker, factory, factory, factory, factory, factory, factory worker",
+      "ficheiro": "01.jpg",
+      "url_original": "https://pixabay.com/get/g5fc5549650369eb2cc64c352c8f23e9a079d52bba625509c9baf67157d79655df7d66dc53b620da863f7b83d751c065f3c5cd593650d6e2f2170e1a67a8d0bd1_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "marcin049",
+      "link": "https://pixabay.com/photos/company-factory-production-186980/",
+      "licenca": "Pixabay Content License",
+      "desc": "company, factory, production, machine production line, the production of, machine, line, the industry, industrial, traffic, technology, metal, machining, milling, stainless steel, the palette, elements, business, factory, factory, factory, factory, factory, production",
+      "ficheiro": "02.jpg",
+      "url_original": "https://pixabay.com/get/g38914938f3f75b2952ddd33dec2f514aa9010167f9fb4e89e367bb393746f6b4030f598ecd6f6e30d018c51c135e2422207aeb216f15c116db13e78fe7d97ffb_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Tama66",
+      "link": "https://pixabay.com/photos/industry-lost-places-factory-1801661/",
+      "licenca": "Pixabay Content License",
+      "desc": "industry, lost places, factory, production, assembly line, work, industrial plant, factory building, abandoned, building, hall, architecture, empty, road, crane, abandoned places, factory, factory, factory, factory, factory, production",
+      "ficheiro": "03.jpg",
+      "url_original": "https://pixabay.com/get/g0f38b9b280a9fac2c925c0a0a49960c4e70221bac9c85fc1a2ca56a5577ffd41fd80b123c7a108b3907d04e8d516928cd54499d8b439fff4557d86432e1f7a13_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Tama66",
+      "link": "https://pixabay.com/photos/lost-places-hall-industry-abandoned-1801658/",
+      "licenca": "Pixabay Content License",
+      "desc": "lost places, hall, industry, abandoned, nature, pforphoto, factory, factory building, industrial plant, plant, assembly, crane, empty, building, transience, architecture, abandoned places",
+      "ficheiro": "04.jpg",
+      "url_original": "https://pixabay.com/get/g6c93982e32efa21875a94d500e488c9d2bc8a3ee952adda6755c5e2ccb82a894e6e3f31941cb82729e652b55e4841601d610f2ff9d13765e816435cce9f805b0_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "invisibleai",
+      "link": "https://pixabay.com/photos/industry-worker-factory-safety-10489741/",
+      "licenca": "Pixabay Content License",
+      "desc": "industry, worker, factory, safety, helmet, machine, electricity, inspection, engineer, tablet, clothing, work, inclusive, project, documentation, workshop, maintenance, assembly, electrician, productive",
+      "ficheiro": "05.jpg",
+      "url_original": "https://pixabay.com/get/g27dbd15c16bc6fb2279629123c92502a77df4bf5c62eee842c721915adf78a4e730a4a980438a8ba78fe314aa4070d4cbef8b7a7d17386a3dffb837ad0b93678_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "ainthome",
+      "link": "https://pixabay.com/photos/cans-manufacturing-business-2888650/",
+      "licenca": "Pixabay Content License",
+      "desc": "cans, manufacturing, business, manufacture, production, factory, industrial, container, design, packaging, plant, nature, line, machine, technology, work, filling, steel, automation, gray business, gray technology, gray work, gray company, gray industry",
+      "ficheiro": "06.jpg",
+      "url_original": "https://pixabay.com/get/g0dc0d9aa49bae607705d7c5d1bb05d60b15c6c0074643af3e4fe4734a08647f339cff15271acfb0c85f07e3fb95fde3dd6aabce0bc54ea52c6ac798e1be1ec90_1280.jpg"
+    }
+  ]
+}

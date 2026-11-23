@@ -1,0 +1,59 @@
+{
+  "query": "invoice payment desk",
+  "candidatas": [
+    {
+      "fonte": "pixabay",
+      "autor": "Firmbee",
+      "link": "https://pixabay.com/photos/bookkeeping-accounting-taxes-615384/",
+      "licenca": "Pixabay Content License",
+      "desc": "bookkeeping, accounting, taxes, settlement, calculator, money, business, finance, billing, documents, office, desk, secretariat, macbook, binder, folders, bookkeeping, bookkeeping, bookkeeping, accounting, accounting, accounting, accounting, accounting, taxes, calculator, money, money, money, finance, finance, finance, finance, billing",
+      "ficheiro": "01.jpg",
+      "url_original": "https://pixabay.com/get/geb69739e35a4d88651316b0a1e065319f760cc675d1589717bb3e804ab1573ccb0a8b4ef027d54622259ea68e5f37fcc933f56b41ff34177abdd2377fe2cc563_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Cobanams",
+      "link": "https://pixabay.com/photos/calculator-table-invoice-work-pay-1156121/",
+      "licenca": "Pixabay Content License",
+      "desc": "calculator, table, invoice, work, pay, calculator, calculator, calculator, calculator, invoice, invoice, invoice, invoice, invoice",
+      "ficheiro": "02.jpg",
+      "url_original": "https://pixabay.com/get/g0ab11e5f89051e4d580e211569b25bed264017d5e8cf7f4e25d528448349cec7e47093cdf7177f303a67b1a072c854d7cce1ff0258917a9097c3fba75da91bd7_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Gadini",
+      "link": "https://pixabay.com/photos/office-accounting-economy-accounts-515984/",
+      "licenca": "Pixabay Content License",
+      "desc": "office, accounting, economy, accounts, closure, token, accounting, accounting, accounting, accounting, accounting",
+      "ficheiro": "03.jpg",
+      "url_original": "https://pixabay.com/get/ge16aee5a36bbf004ce1c4a61bc8f0c622eeaf8d15638fdf608699ced164053fb635957d4cf6b087c1ff23fdc1291d28eb028980e0efffab025175bdc9ecf93e8_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "yourschantz",
+      "link": "https://pixabay.com/photos/taxes-calculate-pay-lifestyle-740202/",
+      "licenca": "Pixabay Content License",
+      "desc": "taxes, calculate, pay, lifestyle, quandary, currency, calculator, tax return, business people, work, mathematics, speculate, dollar bill, business, bills, economical, tax return, tax return, tax return, tax return, tax return",
+      "ficheiro": "04.jpg",
+      "url_original": "https://pixabay.com/get/g6248793a1997c09d3ff7846bfd4843950fa217ea2b7faec91f353b64e84eb4a40a69492b9e29241c88ffadd9557de89bcea620be9a32e2342f9df448440bd4f4_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "Gadini",
+      "link": "https://pixabay.com/photos/office-accounting-economy-working-495808/",
+      "licenca": "Pixabay Content License",
+      "desc": "office, accounting, economy, working, finances, financial, accounting, accounting, accounting, accounting, accounting",
+      "ficheiro": "05.jpg",
+      "url_original": "https://pixabay.com/get/gf1753846d1ae24de630f51d428d7e72813ee8e6d8c129b3a2cf9050521a23df53fb070f26afd966a8780fbd551b55f1baa639f149058a9164bc3834212f88e31_1280.jpg"
+    },
+    {
+      "fonte": "pixabay",
+      "autor": "wal_172619",
+      "link": "https://pixabay.com/photos/rubber-stamp-office-accounting-5100281/",
+      "licenca": "Pixabay Content License",
+      "desc": "rubber stamp, office, accounting, business, paid, money, official, invoice, meeting, authority, info, notary, contract, notary, notary, notary, notary, notary",
+      "ficheiro": "06.jpg",
+      "url_original": "https://pixabay.com/get/gdb1e0caab81c4cb7b671c7a9d7e11ccd02765ba645f08bec22831c22757b6cc6b27abcd621ffe63ef187250eda073a2b434dea828b12090f0567e53c379ce477_1280.jpg"
+    }
+  ]
+}
