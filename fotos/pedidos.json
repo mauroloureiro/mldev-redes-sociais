@@ -1,1 +1,6 @@
-[]
+[
+ {"slug": "post-19", "query": "factory production line", "n": 6},
+ {"slug": "post-19-b", "query": "metal workshop machine", "n": 6},
+ {"slug": "post-21", "query": "invoice payment desk", "n": 6},
+ {"slug": "post-21-b", "query": "bank transfer laptop", "n": 6}
+]
